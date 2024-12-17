@@ -76,7 +76,7 @@ Run the following command to create the databases for development and test:
 ```bash
 rails db:create
 ```
-This command will create the databases granite_development and granite_test in PostgreSQL.
+This command will create the databases hello_development and hello_test in PostgreSQL.
 
 ### 6. Run Migrations
 Once the databases are created, run the migrations to set up the schema:
@@ -94,7 +94,7 @@ rails server
 Your Rails application should now be running, and PostgreSQL is successfully configured as your database.
 
 ### 8. Check Database in PGAdmin
-To verify that your tables were created and the database is set up correctly, you can open PGAdmin and connect to your PostgreSQL server. You should see the granite_development and granite_test databases listed.
+To verify that your tables were created and the database is set up correctly, you can open PGAdmin and connect to your PostgreSQL server. You should see the hello_development and hello_test databases listed.
 
 
 
